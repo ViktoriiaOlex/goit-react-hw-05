@@ -1,0 +1,22 @@
+.content {
+    padding: 0 16px 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f9ffa37c;
+    margin: 48px;
+    border-radius: 8px;
+    min-height: 450px;
+  }
+  
+  .title {
+    margin: 48px 0;
+    color: #fff;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }

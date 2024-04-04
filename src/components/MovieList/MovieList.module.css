@@ -1,0 +1,31 @@
+.list {
+    display: grid;
+    align-self: center;
+    justify-self: center;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+  }
+
+  .item {
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #cccccc;
+    background-color: #f9f9f9;
+    width: 300px;
+    position: relative;
+  }
+  
+  .link {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: rgb(216, 49, 146);
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .link:hover,
+  .link:focus {
+    text-decoration: underline;
+    transition: text-decoration 200ms linear;
+  } 

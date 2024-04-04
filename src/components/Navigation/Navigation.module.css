@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(228, 228, 228);
+    min-width: 320px;
+    margin: 0 auto;
+    font-size: 20px;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+  }
+  
+  .active {
+    color: rgb(216, 49, 141);
+  }
+  
+  .link:hover,
+  .link:focus {
+    color: rgb(216, 49, 127);
+  }

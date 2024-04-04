@@ -1,0 +1,24 @@
+.castList {
+    display: grid;
+    align-self: center;
+    justify-self: center;
+    gap: 24px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .item {
+    border: 1px solid #cccccc;
+    background-color: #8f8f8f;
+    border-radius: 8px;
+    color: #ffffff;
+    padding: 24px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    min-height: 325px;
+  }
+  
+  .noReviewText {
+    color: #8f8f8f;
+  }

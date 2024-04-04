@@ -1,0 +1,20 @@
+.reviewsList {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .item {
+    border: 1px solid #cccccc;
+    padding: 48px 20px;
+    border-radius: 16px;
+    background-color: #e6e6e6;
+  }
+  
+  .noReviewText {
+    color: #8f8f8f;
+  }
+  
+  ul {
+    list-style: none;
+  }
