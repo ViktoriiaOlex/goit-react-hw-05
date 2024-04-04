@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import css from './MovieCast.module.css';
-import { requestCastById } from '../services/api';
+import { requestCastById } from '../../services/Api';
 import { useParams } from 'react-router-dom';
 import CastItem from '../CastItem/CastItem';
 import ErrorMessage from '../ErrorMessage/ErrorMessage';
