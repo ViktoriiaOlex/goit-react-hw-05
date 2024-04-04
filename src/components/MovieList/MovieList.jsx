@@ -7,7 +7,7 @@ const MoviesList = ({ moviesList }) => {
   const location = useLocation();
 
   return (
-    <ul className={css.list}>
+    <ul className={css.listMovie}>
       {Array.isArray(moviesList) &&
         moviesList.length > 0 &&
         moviesList.map(item => {
