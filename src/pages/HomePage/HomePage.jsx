@@ -31,7 +31,7 @@ const HomePage = () => {
   return (
     <div className={css.content}>
       <h1 className={css.title}>Trending Today</h1>
-      <div className={css.container}>
+      <div className={css.homePageContainer}>
         {loading && <Loader />}
         {error && !trendingMovies && <ErrorMessage />}
         {Array.isArray(trendingMovies) && trendingMovies.length > 0 && (

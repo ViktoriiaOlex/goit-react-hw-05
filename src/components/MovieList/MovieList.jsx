@@ -19,7 +19,7 @@ const MoviesList = ({ moviesList }) => {
                 to={`/movies/${item.id}`}
                 className={css.link}
               >
-                See more...
+                Details⏩
               </Link>
             </li>
           );

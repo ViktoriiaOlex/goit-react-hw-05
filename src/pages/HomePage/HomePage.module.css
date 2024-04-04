@@ -11,10 +11,10 @@
   
   .title {
     margin: 48px 0;
-    color: #fff;
+    color: #161313;
   }
   
-  .container {
+  .homePageContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;

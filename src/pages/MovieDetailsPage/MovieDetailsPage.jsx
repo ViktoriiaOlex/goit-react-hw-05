@@ -9,7 +9,7 @@ const MovieReviews = lazy(() =>
   import('../../components/MovieReviews/MovieReviews')
 );
 
-import { requestMovieById } from '../../components/services/api';
+import { requestMovieById } from '../../services/Api';
 import ErrorMessage from '../../components/ErrorMessage/ErrorMessage';
 import Loader from '../../components/Loader/Loader';
 import { Suspense } from 'react';
